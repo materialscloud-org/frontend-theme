@@ -6,7 +6,7 @@ mcloud_theme.css file which will be used in other frontend repositories.
 *NOTE*: sass/theme.scss file internally imports bootstrap-sass and materials design styles. So the
 generated mcloud_theme.css becomes 229K in size.
 
-## Install packages
+### Install packages
 
 #### Ubuntu 14.04
 
@@ -48,7 +48,7 @@ sudo gem install sass bundler
 ```
 
 
-## Building
+### Building
 
 ```bash
 git clone git@github.com:materialscloud-org/frontend-theme.git
