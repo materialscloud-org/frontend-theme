@@ -14,5 +14,8 @@
   "homepage": "https://github.com/materialscloud-org/frontend-theme#readme",
   "dependencies": {
     "@angular/material": "^6.4.2"
+  },
+  "devDependencies": {
+    "minify": "^3.0.5"
   }
 }

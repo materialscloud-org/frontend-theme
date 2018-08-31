@@ -1,16 +1,21 @@
-It contains the materials cloud global theme common in all frontends.
+## Usage
 
-Update the scss files to make any changes in global theme and generate 
-mcloud_theme.css file which will be used in other frontend repositories.
+To use materials cloud global theme extended from 
+bootstap theme (bootstrap-sass: ~3.3.3) you need to add:
 
-*NOTE*: sass/theme.scss file internally imports bootstrap-sass and materials design styles. So the
-generated mcloud_theme.css becomes 229K in size.
+```html
+<link rel="stylesheet" href="mcloud_theme.min.css" />
+```
+
+
+
+## Developers Guide
 
 ### Install packages
 
 #### Ubuntu 14.04
 
-Install nodejs and nam:
+Install nodejs and npm:
 
 ```bash
 sudo apt-get install nodejs npm
@@ -23,7 +28,7 @@ Install ruby gems for SaSS
 sudo gem install sass bundler
 ```
 
-Install yo, bower, grunt
+Install bower
 ```bash
 sudo npm install --global bower
 ```
@@ -37,7 +42,7 @@ Update npm
 sudo npm install -g npm
 ```
 
-Install grunt-cli, bower, yo, generator-karma, generator-angular:
+Install bower:
 ```bash
 sudo npm install -g bower
 ```
@@ -62,4 +67,10 @@ npm install && bower install
 
 ```bash
 sass --watch sass/theme.scss:mcloud_theme.css
+```
+
+### You can minify updated mcloud_theme.css file using command:
+
+```bash
+minify mcloud_theme.css > mcloud_theme.min.css
 ```
