@@ -1,2 +1,5 @@
-Materials Cloud header in various formats: Jinja, plain html.
+Materials Cloud header in various formats: 
+
+ * Jinja2 
+ * plain html
 

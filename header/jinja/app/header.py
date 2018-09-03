@@ -19,3 +19,9 @@ css_classes = {
  "explore": "",
  "archive": "active",
 }
+
+template_vars = dict(
+    mcloud_base_url = mcloud_base_url,
+    urls = urls,
+    css_classes = css_classes
+)
