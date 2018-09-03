@@ -25,11 +25,11 @@
                     <!-- add class=active to the active url
                     e.g. <li class="active"><a href="/">ARCHIVE</a></li>
                     -->
-                    <li><a href="{{ mcloud_base_url }}/learn">LEARN</a></li>
-                    <li><a href="{{ mcloud_base_url }}/work">WORK</a></li>
-                    <li><a href="{{ mcloud_base_url }}/discover">DISCOVER</a></li>
-                    <li><a href="{{ mcloud_base_url }}/explore">EXPLORE</a></li>
-                    <li><a href="{{ mcloud_base_url }}/archive">ARCHIVE</a></li>
+                    <li class="{{ css_classes.learn }}" ><a href="{{ urls.learn }}">LEARN</a></li>
+                    <li class="{{ css_classes.work }}" ><a href="{{ urls.work }}">WORK</a></li>
+                    <li class="{{ css_classes.discover}}" ><a href="{{ urls.discover }}">DISCOVER</a></li>
+                    <li class="{{ css_classes.explore }}" ><a href="{{ urls.explore }}">EXPLORE</a></li>
+                    <li class="{{ css_classes.archive }}" ><a href="{{ urls.archive }}">ARCHIVE</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
