@@ -3,6 +3,7 @@ It contains jinja template for Materials Cloud header.
 Steps to add Materials Cloud header:
 
 1. Include `app/templates/header.html` in your jinja template
+1. Copy `app/header.py` to your app (potentially modify)
 1. Copy `app/static` folder to your app 
 
 ## Testing
