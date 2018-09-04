@@ -6619,4 +6619,31 @@ div:focus, li:focus {
   border-color: transparent !important;
   min-width: 140px; }
 
+.archive-entry-available h4 {
+  display: inline-block;
+  margin-right: 5px; }
+.archive-entry-available .archive-entry-icon-container {
+  width: 30px;
+  height: 25px;
+  position: relative;
+  display: inline-block !important;
+  top: 6px;
+  cursor: pointer; }
+.archive-entry-available .archive-entry-icon-header-container {
+  width: 60px;
+  height: 50px;
+  position: relative;
+  display: inline-block !important;
+  top: 17px;
+  cursor: pointer; }
+.archive-entry-available .archive-entry-icon {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: 0; }
+
 /*# sourceMappingURL=mcloud_theme.css.map */
