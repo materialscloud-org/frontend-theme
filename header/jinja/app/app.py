@@ -15,7 +15,7 @@ app.url_map.strict_slashes = False
 @app.route('/')
 def index():
     tvars = header.template_vars
-    return render_template('header.html', **tvars)
+    return render_template('base.html', **tvars)
 
 if __name__ == '__main__':
     app.run(debug=True)
