@@ -3635,7 +3635,7 @@ tbody.collapse.in {
   margin-left: 2px;
   vertical-align: middle;
   border-top: 4px dashed;
-  border-top: 4px solid \	;
+  border-top: 4px solid \9 ;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent; }
 
@@ -3740,7 +3740,7 @@ tbody.collapse.in {
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0;
   border-bottom: 4px dashed;
-  border-bottom: 4px solid \	;
+  border-bottom: 4px solid \9 ;
   content: ""; }
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {
@@ -6654,5 +6654,36 @@ div:focus, li:focus {
     color: #212529;
     text-decoration: none;
     background-color: #c0dbff; }
+
+/* Overlay dive to add message on visualizer */
+.overlay-div {
+  position: absolute;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+  display: table;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  vertical-align: middle;
+  -moz-user-select: none;
+  cursor: pointer;
+  user-select: none;
+  background-color: #a2a2a252; }
+  .overlay-div span {
+    color: #505050;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.01);
+    display: table-cell;
+    vertical-align: middle;
+    line-height: normal;
+    -moz-user-select: none; }
+
+.shadow-box-help {
+  text-align: center;
+  margin-left: 10px;
+  width: 100%; }
 
 /*# sourceMappingURL=mcloud_theme.css.map */

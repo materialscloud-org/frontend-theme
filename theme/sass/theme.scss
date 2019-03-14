@@ -504,3 +504,38 @@ div:focus, li:focus {
     background-color: rgb(192, 219, 255);
   }
 }
+
+/* Overlay dive to add message on visualizer */
+.overlay-div {
+  position: absolute;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+  display: table;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  vertical-align: middle;
+  -moz-user-select: none;
+  cursor: pointer;
+  user-select: none;
+  background-color: #a2a2a252;
+
+  span {
+    color: rgb(80, 80, 80);
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.01);
+    display: table-cell;
+    vertical-align: middle;
+    line-height: normal;
+    -moz-user-select: none;
+  }
+}
+
+.shadow-box-help {
+  text-align: center;
+  margin-left: 10px;
+  width: 100%;
+}
