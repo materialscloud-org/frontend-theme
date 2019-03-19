@@ -6686,4 +6686,7 @@ div:focus, li:focus {
   margin-left: 10px;
   width: 100%; }
 
+.cc-revoke {
+  display: none; }
+
 /*# sourceMappingURL=mcloud_theme.css.map */

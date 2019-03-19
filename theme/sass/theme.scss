@@ -539,3 +539,6 @@ div:focus, li:focus {
   margin-left: 10px;
   width: 100%;
 }
+
+// hide cookie button used to re-open the consent message
+.cc-revoke { display: none }
