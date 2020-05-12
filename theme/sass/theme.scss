@@ -10,7 +10,7 @@
 
 //@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono);
 //@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600);
-@import url(https://fonts.googleapis.com/css?family=Assistant|Roboto:100,300,400|Roboto+Condensed|Roboto+Mono|Droid+Sans+Mono);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400|Roboto+Condensed|Roboto+Mono|Droid+Sans+Mono);
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 @mixin box-shadow($style) {
@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6{
 }
 body {
   color: #222;
+  font-weight: 300;
 }
 
 h1 {
