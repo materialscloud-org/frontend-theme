@@ -5,14 +5,13 @@ $font-family-serif:       Georgia, "Times New Roman", Times, serif;
 $font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
 $font-family-base:        $font-family-sans-serif;
 */
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400|Roboto+Condensed|Roboto+Mono|Droid+Sans+Mono);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap);
 .mcloud-home-container .tagline-container {
   overflow: visible;
   width: 100%;
   padding: 30px;
   font-size: 18px;
   line-height: 30px;
-  font-weight: 300;
 }
 .mcloud-home-container .tagline-container .logo {
   padding: 10px;
@@ -105,7 +104,6 @@ $font-family-base:        $font-family-sans-serif;
 }
 .mcloud-home-container .tab-list-menu .tab-content table.contribute td.section {
   font-family: "Roboto", sans-serif;
-  font-weight: normal;
   font-size: 22px;
   color: #1565C0;
 }
@@ -136,7 +134,7 @@ $font-family-base:        $font-family-sans-serif;
   text-align: center;
 }
 .mcloud-general-message p {
-  font-weight: bold;
+  font-weight: 400;
   margin-bottom: 0px;
 }
 
@@ -243,7 +241,7 @@ ul#panelbar {
 
 .k-grid-header .k-header {
   text-align: center !important;
-  font-weight: bold !important;
+  font-weight: 400 !important;
 }
 
 .nopadding {
@@ -317,7 +315,6 @@ div.mcloud-page-sidebar span.k-icon {
 
 .custom-bullet li:before {
   content: "";
-  font-family: "Glyphicons Halflings";
   font-size: 9px;
   float: left;
   margin-top: 4px;
@@ -1974,7 +1971,7 @@ html {
 }
 
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.428571429;
   color: #333333;
@@ -2073,7 +2070,7 @@ hr {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.1;
   color: inherit;
 }
@@ -7114,7 +7111,7 @@ button.close {
   position: absolute;
   z-index: 1030;
   display: block;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7236,7 +7233,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7896,10 +7893,6 @@ td.visible-print {
     display: none !important;
   }
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
-}
-
 body {
   color: #222;
   font-weight: 300;
@@ -7907,32 +7900,32 @@ body {
 
 h1 {
   font-size: 40px;
-  font-weight: 300;
   color: #0D47A1;
 }
 
 h2 {
   font-size: 32px;
-  font-weight: 300;
   color: #0D47A1;
 }
 
 h3 {
-  font-weight: normal;
   font-size: 22px;
   color: #1565C0;
 }
 
 h4 {
-  font-weight: normal;
   font-size: 16px;
   color: #1565C0;
 }
 
 h5 {
-  font-weight: bold;
+  font-weight: 400;
   font-size: 14px;
   color: #1565C0;
+}
+
+b {
+  font-weight: 400;
 }
 
 pre, code, .numbers-font-family {
@@ -7953,6 +7946,7 @@ blockquote {
 
 p, ul, li {
   font-size: 16px;
+  font-weight: 300;
 }
 
 .jumbotron p {
@@ -7977,7 +7971,6 @@ p, ul, li {
 
 .navbar-brand {
   padding: 15px 15px;
-  font-weight: 600;
 }
 
 .navbar-brand img {
@@ -7987,10 +7980,9 @@ p, ul, li {
 }
 
 .navbar-nav > li > a {
-  font-weight: bolder;
+  font-weight: 400;
   line-height: 32px;
   font-size: 16px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .navbar-right > li > a {
@@ -8042,7 +8034,7 @@ p, ul, li {
 
 .btn {
   letter-spacing: 1px;
-  font-weight: 600;
+  font-weight: 400;
   border-radius: 3px;
   text-transform: uppercase;
 }
@@ -8084,7 +8076,7 @@ p, ul, li {
 
 .panel-heading {
   color: #455860;
-  font-weight: 600;
+  font-weight: 400;
   border-width: 3px;
   border-radius: 0;
 }
@@ -8111,7 +8103,6 @@ p, ul, li {
 }
 
 .panel-info a:before {
-  font-family: "Glyphicons Halflings";
   content: "";
   float: right;
   color: white;
@@ -8325,7 +8316,7 @@ div:focus, li:focus {
   display: inline-block;
   padding: 0.25em 0.4em;
   font-size: 75%;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
@@ -8341,7 +8332,7 @@ div:focus, li:focus {
   display: inline-block;
   padding: 0.25em 0.4em;
   font-size: 75%;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
@@ -8356,7 +8347,6 @@ div:focus, li:focus {
 /* Overlay dive to add message on visualizer */
 .overlay-div {
   position: absolute;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   z-index: 10000;
   width: 100%;
   height: 100%;
@@ -8373,7 +8363,7 @@ div:focus, li:focus {
 .overlay-div span {
   color: #505050;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 400;
   background-color: rgba(255, 255, 255, 0.01);
   display: table-cell;
   vertical-align: middle;

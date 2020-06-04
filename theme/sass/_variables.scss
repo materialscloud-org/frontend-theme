@@ -49,7 +49,9 @@ $font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
 $font-family-base:        $font-family-sans-serif;
 */
 
-$font-family-base:        Roboto;
+$font-family-base:        'Roboto', sans-serif;
+$font-weight-normal:      300;
+$font-weight-bold:        400;
 
 $font-size-base:          16px;
 $font-size-large:         ceil($font-size-base * 1.25); // ~18px
@@ -59,7 +61,7 @@ $line-height-base:        1.428571429; // 20/14
 $line-height-computed:    floor($font-size-base * $line-height-base); // ~20px
 
 //$headings-font-family:    $font-family-base;
-$headings-font-weight:    700;
+$headings-font-weight:    400;
 $headings-line-height:    1.1;
 
 
@@ -112,7 +114,7 @@ $table-border-color:                 transparent; // table and cell border
 // Buttons
 // -------------------------
 
-$btn-font-weight:                normal;
+//$btn-font-weight:                normal;
 
 $btn-default-color:              #839094;
 $btn-default-bg:                 #ecefed;
@@ -448,7 +450,7 @@ $modal-footer-border-color:   $modal-header-border-color;
 // -------------------------
 $alert-padding:               15px;
 $alert-border-radius:         $border-radius-base;
-$alert-link-font-weight:      bold;
+//$alert-link-font-weight:      bold;
 
 $alert-success-bg:            $state-success-bg;
 $alert-success-text:          $state-success-text;
@@ -551,7 +553,7 @@ $badge-bg:                    $gray-light;
 $badge-active-color:          $link-color;
 $badge-active-bg:             $white;
 
-$badge-font-weight:           bold;
+//$badge-font-weight:           bold;
 $badge-line-height:           1;
 $badge-border-radius:         10px;
 
@@ -580,7 +582,7 @@ $carousel-caption-color:                      $white;
 // Close
 // ------------------------
 $close-color:                 $black;
-$close-font-weight:           bold;
+//$close-font-weight:           bold;
 $close-text-shadow:           0 1px 0 $white;
 
 

@@ -35,7 +35,7 @@ $page-content-full-margin:      0px;
   text-align: center;
 
   p {
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 0px;
   }
 }
@@ -146,7 +146,7 @@ ul#panelbar{
 // grid title header should be centre aligned and bold
 .k-grid-header .k-header {
   text-align: center !important;
-  font-weight: bold !important;
+  font-weight: 400 !important;
 }
 
 // in calculations.html when col-md-6 used, they overflow
@@ -231,7 +231,7 @@ div.mcloud-page-sidebar span.k-icon {
 
 .custom-bullet li:before  {
   content: "\e080";
-  font-family: 'Glyphicons Halflings';
+  //font-family: 'Glyphicons Halflings';
   font-size: 9px;
   float: left;
   margin-top: 4px;
