@@ -5,7 +5,7 @@ $font-family-serif:       Georgia, "Times New Roman", Times, serif;
 $font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
 $font-family-base:        $font-family-sans-serif;
 */
-@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
 .mcloud-home-container .tagline-container {
   overflow: visible;
   width: 100%;
@@ -8184,6 +8184,10 @@ p, ul, li {
   white-space: pre;
   min-height: 1.2em;
   padding: 0px 2px 1px;
+}
+
+.mcloud-header a {
+  font-weight: 900 !important;
 }
 
 /* Loading spinner */
