@@ -8103,6 +8103,7 @@ p, ul, li {
 }
 
 .panel-info a:before {
+  font-family: "Glyphicons Halflings";
   content: "";
   float: right;
   color: white;
