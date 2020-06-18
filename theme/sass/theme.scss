@@ -10,8 +10,9 @@
 
 //@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono);
 //@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600);
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
 //@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400|Roboto+Condensed|Roboto+Mono|Droid+Sans+Mono);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 @mixin box-shadow($style) {
@@ -125,7 +126,7 @@ p, ul, li {
   font-weight: $font-weight-bold;
   line-height: 32px;
   font-size: 16px;
-  //font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-right > li > a {
@@ -337,7 +338,7 @@ p, ul, li {
 }
 
 .mcloud-header a {
-  font-weight: 900 !important;
+  font-weight: 700 !important;
 }
 
 .more-menu a {
