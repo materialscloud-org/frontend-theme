@@ -7930,7 +7930,6 @@ b, strong, th {
 }
 
 pre, code, .numbers-font-family {
-  /*font-family: 'Roboto Mono', monospace;*/
   font-family: "Droid Sans Mono", monospace;
   font-size: 14px;
   color: #455860;
