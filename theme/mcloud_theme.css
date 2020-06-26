@@ -5,7 +5,7 @@ $font-family-serif:       Georgia, "Times New Roman", Times, serif;
 $font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
 $font-family-base:        $font-family-sans-serif;
 */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@300;400&family=Space+Mono&display=swap");
 .mcloud-home-container .tagline-container {
   overflow: visible;
   width: 100%;
@@ -7930,7 +7930,7 @@ b, strong, th {
 }
 
 pre, code, .numbers-font-family {
-  font-family: "Droid Sans Mono", monospace;
+  font-family: "Space Mono", monospace;
   font-size: 14px;
   color: #455860;
   background: #f0f3f3;
