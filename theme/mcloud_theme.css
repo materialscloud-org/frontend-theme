@@ -5,7 +5,7 @@ $font-family-serif:       Georgia, "Times New Roman", Times, serif;
 $font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
 $font-family-base:        $font-family-sans-serif;
 */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@300;400&family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 .mcloud-home-container .tagline-container {
   overflow: visible;
   width: 100%;
@@ -7896,7 +7896,7 @@ td.visible-print {
 }
 body {
   color: #222;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h1 {
@@ -7920,13 +7920,13 @@ h4 {
 }
 
 h5 {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 14px;
   color: #1565C0;
 }
 
 b, strong, th {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 pre, code, .numbers-font-family {
@@ -7946,7 +7946,7 @@ blockquote {
 
 p, ul, li {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .jumbotron p {
@@ -7980,7 +7980,7 @@ p, ul, li {
 }
 
 .navbar-nav > li > a {
-  font-weight: 400;
+  font-weight: 700;
   line-height: 32px;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
@@ -8035,7 +8035,7 @@ p, ul, li {
 
 .btn {
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 700;
   border-radius: 3px;
   text-transform: uppercase;
 }
@@ -8077,7 +8077,7 @@ p, ul, li {
 
 .panel-heading {
   color: #455860;
-  font-weight: 400;
+  font-weight: 700;
   border-width: 3px;
   border-radius: 0;
 }
@@ -8326,7 +8326,7 @@ div:focus, li:focus {
   display: inline-block;
   padding: 0.25em 0.4em;
   font-size: 75%;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
@@ -8342,7 +8342,7 @@ div:focus, li:focus {
   display: inline-block;
   padding: 0.25em 0.4em;
   font-size: 75%;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
@@ -8373,7 +8373,7 @@ div:focus, li:focus {
 .overlay-div span {
   color: #505050;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 700;
   background-color: rgba(255, 255, 255, 0.01);
   display: table-cell;
   vertical-align: middle;

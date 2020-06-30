@@ -6,8 +6,7 @@
 @import "breadcrumb";
 @import "section_menu";
 
-//@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@300;400&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 @mixin box-shadow($style) {
@@ -20,7 +19,7 @@
 
 body {
   color: #222;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h1 {
@@ -48,13 +47,13 @@ h4 {
 }
 
 h5 {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 14px;
   color: #1565C0;
 }
 
 b, strong, th {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 pre, code, .numbers-font-family {
@@ -75,7 +74,7 @@ blockquote {
 
 p, ul, li {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 // ---- Jumbotron
