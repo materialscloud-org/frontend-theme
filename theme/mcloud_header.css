@@ -66,11 +66,13 @@ $font-family-base:        $font-family-sans-serif;
   color: #455860;
 }
 
-.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a {
+  background-color: white !important;
+}
+
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
   color: #8fa5af;
-  background-color: white !important;
 }
 
 .navbar-right > li > a {
