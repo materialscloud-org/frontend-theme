@@ -1,4 +1,5 @@
 @import "variables";
+@import "page";
 @import "breadcrumb";
 
 @mixin box-shadow($style) {
@@ -175,6 +176,7 @@
 }
 
 .breadcrumb {
+  font-family: "Roboto", sans-serif;
   padding: 8px 15px;
   margin-bottom: 22px;
   line-height: 24px;
