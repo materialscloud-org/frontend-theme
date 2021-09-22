@@ -221,6 +221,7 @@ $font-family-base:        $font-family-sans-serif;
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 22px;
+  line-height: 24px;
   list-style: none;
   background-color: #f5f5f5;
   border-radius: 2px;
@@ -238,6 +239,10 @@ $font-family-base:        $font-family-sans-serif;
 
 .breadcrumb > .active {
   color: #999999;
+}
+
+.breadcrumb > li > a {
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=mcloud_header.css.map */
